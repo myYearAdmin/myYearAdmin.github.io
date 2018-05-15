@@ -7,14 +7,14 @@ The data will store in block chain so no one could remove or modify data directl
 
 ### Dapp Structure
 #### Smart contract
-The source code of Super Dictionary smart contract is [`pthospital.js`](smartContract/pthospital.js). And the contract address after deployed on testnet is `n1oXdmwuo5jJRExnZR5rbceMEyzRsPeALgm`.
+The source code of Super Dictionary smart contract is [`pthospital.js`](smartContract/pthospital.js). And the contract address after deployed on testnet is `n1p12u4ngXec2MkrDZAncGPL3GmPGbRaBrf`.
 PTHospital is a simple smart contract that stores and gets key/value  pairs. It has two functions for Dapp user to use: 
 * `save(url, name, evidence)` to save a hospital entry with web site url, name and evidence.
 * `get(url)` to search the value of a given key. If this entry doesn't exits, then you can create this entry.
 It is recommend to use web site url as key of entry actually it did not validate url format but you need to make sure key is unique.
 
 #### Web page of Dapp
-After the smart contract of our Dapp is deployed, we need to develop a web page or App for user to interact with it. The webpage of Super Dictionary is [`index.html`](http://39.105.36.104:8080/index.html). 
+After the smart contract of our Dapp is deployed, we need to develop a web page or App for user to interact with it. The webpage of Super Dictionary is [`index.html`](https://myyearadmin.github.io/). 
 
 We use [NebPay SDK](https://github.com/nebulasio/nebPay) as our payment interface, and Dapp user need to install chrome extension [WebExtensionWallet](https://github.com/ChengOrangeJu/WebExtensionWallet)(on PC) or [NAS Nano](https://blog.nebulas.io/2018/05/10/announcement-of-official-app/) wallet app(on mobile) to complete the transactions initiated by Dapp.
 

@@ -91,7 +91,8 @@ $("#add").click(function () {
     $("#add_value").val("")
 });
 
-$(".example a").click(function () {
+$(".example a").click(function (e) {
+    e.preventDefault();
     $("#search_value").val($(this).attr("href"));
     $("#search").trigger("click");
     return false;
