@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="full-screen" content="yes">
+
+    <title>PT Hospital</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<div class="contenner">
+    <div class="logo">
+        <div class="name">PUTIAN Hospital</div>
+    </div>
+    <div class="example">Test search function with example value <a target="_blank" href="http://www.dong120.com">http://www.dong120.com</a> <a target="_blank" href="http://www.shsayy.com">http://www.shsayy.com</a></div>
+
+    <div class="noExtension hide" id="noExtension">
+        NOTE: Please install <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>
+        to use this Dapp.
+    </div>
+    <div class="search">
+        <input id="search_value" type="text" maxlength="64">
+        <button id=search>Search</button>
+    </div>
+    <div class="result_success hide">
+        <div id="search_banner"></div>
+        <p id="search_result"></p>
+        <div class="author"><i>Author:<p id="search_result_author"></p></i></div>
+    </div>
+
+    <div class="result_fail hide">
+        Failed to find related information.
+        <div id="addLink" class="hide">Do you want to <button id="add">add</button> hospital information for "<i id="result_fail_add"></i>"?</div>
+    </div>
+
+    <div class="add_banner hide">
+        <input type="text" id="add_name" placeholder="input name of hospital" maxlength="64">
+        <input type="text" id="add_evidence" placeholder="input evidence(could use url)" maxlength="64">
+        <button id="push">Add</button>
+    </div>
+</div>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="lib/nebPay.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="lib/nebulas.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

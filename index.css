@@ -1,0 +1,112 @@
+body {
+    color: #333;
+    line-height: 1.8;
+    letter-spacing: 0.08rem;
+    font-family: open sans, helvetica neue, helvetica, arial, sans-serif
+}
+
+.logo {
+    width: 60%;
+    height: 150px;
+    margin: auto;
+}
+
+.name {
+    text-align: center;
+    font-size: 66px;
+    text-shadow: 3px 5px grey, 1px 1px #333;
+}
+
+.search {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+.example {
+    width: 67%;
+    height: 100px;
+    margin: auto;
+    font-size: 23px;
+}
+.noExtension {
+    width: 47%;
+    height: 100px;
+    margin: auto;
+    font-size: 23px;
+}
+
+#search_value {
+    width: 80%;
+    height: 50px;
+    box-shadow: 3px 5px grey, 1px 1px #333;
+}
+
+.search button {
+    width: 18%;
+    height: 50px;
+    margin-left: 6px;
+    box-shadow: 3px 5px grey, 1px 1px #333;
+}
+
+
+.result_error {
+    color: red;
+}
+
+.result_success {
+    width: 60%;
+    margin: auto;
+    font-size: 22px
+}
+
+.result_fail {
+    width: 60%;
+    margin: auto;
+    font-size: 22px
+}
+
+.add_banner {
+    width: 80%;
+    margin: auto;
+}
+
+.add_banner input {
+    width: 80%;
+    height: 50px;
+    box-shadow: 3px 5px grey, 1px 1px #333;
+}
+
+.add_banner button {
+    width: 18%;
+    height: 50px;
+    margin-left: 6px;
+    box-shadow: 3px 5px grey, 1px 1px #333;
+}
+
+#search_banner {
+    font-size: 50px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+p {
+    text-indent: 2em;
+    font-size: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.contenner {
+    height: 1500px;
+}
+
+.author {
+    text-align: left;
+}
+
+.author p {
+    display: inline-block;
+    font-size: 18px;
+}
